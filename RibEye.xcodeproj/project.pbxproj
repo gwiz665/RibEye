@@ -23,14 +23,14 @@
 		697CB1E3143262F6002C8C49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		697CB1E5143262F6002C8C49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		697CB1E7143262F6002C8C49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		697CB1EB143262F6002C8C49 /* RibEye-Info.plist */ = {isa = PBXFileReference; path = "RibEye-Info.plist"; sourceTree = "<group>"; };
+		697CB1EB143262F6002C8C49 /* RibEye-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RibEye-Info.plist"; sourceTree = "<group>"; };
 		697CB1ED143262F6002C8C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		697CB1EF143262F6002C8C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		697CB1F1143262F6002C8C49 /* RibEye-Prefix.pch */ = {isa = PBXFileReference; path = "RibEye-Prefix.pch"; sourceTree = "<group>"; };
-		697CB1F2143262F6002C8C49 /* RibEyeAppDelegate.h */ = {isa = PBXFileReference; path = RibEyeAppDelegate.h; sourceTree = "<group>"; };
+		697CB1F1143262F6002C8C49 /* RibEye-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RibEye-Prefix.pch"; sourceTree = "<group>"; };
+		697CB1F2143262F6002C8C49 /* RibEyeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RibEyeAppDelegate.h; sourceTree = "<group>"; };
 		697CB1F3143262F6002C8C49 /* RibEyeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibEyeAppDelegate.m; sourceTree = "<group>"; };
 		697CB1F6143262F6002C8C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		697CB1F8143262F6002C8C49 /* RibEyeViewController.h */ = {isa = PBXFileReference; path = RibEyeViewController.h; sourceTree = "<group>"; };
+		697CB1F8143262F6002C8C49 /* RibEyeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RibEyeViewController.h; sourceTree = "<group>"; };
 		697CB1F9143262F6002C8C49 /* RibEyeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibEyeViewController.m; sourceTree = "<group>"; };
 		697CB1FC143262F6002C8C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RibEyeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
