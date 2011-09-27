@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		697CB1E4143262F6002C8C49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697CB1E3143262F6002C8C49 /* UIKit.framework */; };
+		697CB1E6143262F6002C8C49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697CB1E5143262F6002C8C49 /* Foundation.framework */; };
+		697CB1E8143262F6002C8C49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697CB1E7143262F6002C8C49 /* CoreGraphics.framework */; };
+		697CB1EE143262F6002C8C49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 697CB1EC143262F6002C8C49 /* InfoPlist.strings */; };
+		697CB1F0143262F6002C8C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 697CB1EF143262F6002C8C49 /* main.m */; };
+		697CB1F4143262F6002C8C49 /* RibEyeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 697CB1F3143262F6002C8C49 /* RibEyeAppDelegate.m */; };
+		697CB1F7143262F6002C8C49 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697CB1F5143262F6002C8C49 /* MainWindow.xib */; };
+		697CB1FA143262F6002C8C49 /* RibEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697CB1F9143262F6002C8C49 /* RibEyeViewController.m */; };
+		697CB1FD143262F6002C8C49 /* RibEyeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697CB1FB143262F6002C8C49 /* RibEyeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		697CB1DF143262F6002C8C49 /* RibEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		697CB1E3143262F6002C8C49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		697CB1E5143262F6002C8C49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		697CB1E7143262F6002C8C49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		697CB1EB143262F6002C8C49 /* RibEye-Info.plist */ = {isa = PBXFileReference; path = "RibEye-Info.plist"; sourceTree = "<group>"; };
+		697CB1ED143262F6002C8C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		697CB1EF143262F6002C8C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		697CB1F1143262F6002C8C49 /* RibEye-Prefix.pch */ = {isa = PBXFileReference; path = "RibEye-Prefix.pch"; sourceTree = "<group>"; };
+		697CB1F2143262F6002C8C49 /* RibEyeAppDelegate.h */ = {isa = PBXFileReference; path = RibEyeAppDelegate.h; sourceTree = "<group>"; };
+		697CB1F3143262F6002C8C49 /* RibEyeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibEyeAppDelegate.m; sourceTree = "<group>"; };
+		697CB1F6143262F6002C8C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		697CB1F8143262F6002C8C49 /* RibEyeViewController.h */ = {isa = PBXFileReference; path = RibEyeViewController.h; sourceTree = "<group>"; };
+		697CB1F9143262F6002C8C49 /* RibEyeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibEyeViewController.m; sourceTree = "<group>"; };
+		697CB1FC143262F6002C8C49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RibEyeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		697CB1DC143262F6002C8C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697CB1E4143262F6002C8C49 /* UIKit.framework in Frameworks */,
+				697CB1E6143262F6002C8C49 /* Foundation.framework in Frameworks */,
+				697CB1E8143262F6002C8C49 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		697CB1D4143262F6002C8C49 = {
+			isa = PBXGroup;
+			children = (
+				697CB1E9143262F6002C8C49 /* RibEye */,
+				697CB1E2143262F6002C8C49 /* Frameworks */,
+				697CB1E0143262F6002C8C49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		697CB1E0143262F6002C8C49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				697CB1DF143262F6002C8C49 /* RibEye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		697CB1E2143262F6002C8C49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				697CB1E3143262F6002C8C49 /* UIKit.framework */,
+				697CB1E5143262F6002C8C49 /* Foundation.framework */,
+				697CB1E7143262F6002C8C49 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		697CB1E9143262F6002C8C49 /* RibEye */ = {
+			isa = PBXGroup;
+			children = (
+				697CB1F2143262F6002C8C49 /* RibEyeAppDelegate.h */,
+				697CB1F3143262F6002C8C49 /* RibEyeAppDelegate.m */,
+				697CB1F5143262F6002C8C49 /* MainWindow.xib */,
+				697CB1F8143262F6002C8C49 /* RibEyeViewController.h */,
+				697CB1F9143262F6002C8C49 /* RibEyeViewController.m */,
+				697CB1FB143262F6002C8C49 /* RibEyeViewController.xib */,
+				697CB1EA143262F6002C8C49 /* Supporting Files */,
+			);
+			path = RibEye;
+			sourceTree = "<group>";
+		};
+		697CB1EA143262F6002C8C49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				697CB1EB143262F6002C8C49 /* RibEye-Info.plist */,
+				697CB1EC143262F6002C8C49 /* InfoPlist.strings */,
+				697CB1EF143262F6002C8C49 /* main.m */,
+				697CB1F1143262F6002C8C49 /* RibEye-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		697CB1DE143262F6002C8C49 /* RibEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 697CB200143262F6002C8C49 /* Build configuration list for PBXNativeTarget "RibEye" */;
+			buildPhases = (
+				697CB1DB143262F6002C8C49 /* Sources */,
+				697CB1DC143262F6002C8C49 /* Frameworks */,
+				697CB1DD143262F6002C8C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RibEye;
+			productName = RibEye;
+			productReference = 697CB1DF143262F6002C8C49 /* RibEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		697CB1D6143262F6002C8C49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kiloo Games";
+			};
+			buildConfigurationList = 697CB1D9143262F6002C8C49 /* Build configuration list for PBXProject "RibEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 697CB1D4143262F6002C8C49;
+			productRefGroup = 697CB1E0143262F6002C8C49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				697CB1DE143262F6002C8C49 /* RibEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		697CB1DD143262F6002C8C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697CB1EE143262F6002C8C49 /* InfoPlist.strings in Resources */,
+				697CB1F7143262F6002C8C49 /* MainWindow.xib in Resources */,
+				697CB1FD143262F6002C8C49 /* RibEyeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		697CB1DB143262F6002C8C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697CB1F0143262F6002C8C49 /* main.m in Sources */,
+				697CB1F4143262F6002C8C49 /* RibEyeAppDelegate.m in Sources */,
+				697CB1FA143262F6002C8C49 /* RibEyeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		697CB1EC143262F6002C8C49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				697CB1ED143262F6002C8C49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		697CB1F5143262F6002C8C49 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				697CB1F6143262F6002C8C49 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		697CB1FB143262F6002C8C49 /* RibEyeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				697CB1FC143262F6002C8C49 /* en */,
+			);
+			name = RibEyeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		697CB1FE143262F6002C8C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		697CB1FF143262F6002C8C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		697CB201143262F6002C8C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RibEye/RibEye-Prefix.pch";
+				INFOPLIST_FILE = "RibEye/RibEye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		697CB202143262F6002C8C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RibEye/RibEye-Prefix.pch";
+				INFOPLIST_FILE = "RibEye/RibEye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		697CB1D9143262F6002C8C49 /* Build configuration list for PBXProject "RibEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697CB1FE143262F6002C8C49 /* Debug */,
+				697CB1FF143262F6002C8C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		697CB200143262F6002C8C49 /* Build configuration list for PBXNativeTarget "RibEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697CB201143262F6002C8C49 /* Debug */,
+				697CB202143262F6002C8C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 697CB1D6143262F6002C8C49 /* Project object */;
+}
