@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @class RibEyeViewController;
-//lol villars sucks balls!
 
 @interface RibEyeAppDelegate : NSObject <UIApplicationDelegate>
 
